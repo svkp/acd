@@ -207,21 +207,23 @@
 }
  #modal-container .modal-background .modal {
 	 left: -400px;
-	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
-  	 transition: 0.3s;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	 transition: 0.3s;
 	 background: bisque;
-	 padding: 15px;
+	 padding: 5px 10px;
 	 display: inline-block;
 	 border-radius: 3px;
 	 font-weight: 300;
 	 position: relative;
-}
+ }
 
  #modal-container .modal-background .modal h2{
 	 text-align: center;
+	 margin: 0;
  }
  #modal-container .modal-background .modal p{
 	 text-align: left;
+	 margin: 3px;
  }
 
  #modal-container .modal-background .modal:hover {
